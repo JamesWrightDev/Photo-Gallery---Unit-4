@@ -1,18 +1,9 @@
 
-.wrapper,
-.container{
-    margin: auto;
-    width: 50%;
-    
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.wrapper {
-
-    max-width: 300px;
-}
-img{
-    display: block;
-    margin-bottom: 10px;
-   
-
-}
