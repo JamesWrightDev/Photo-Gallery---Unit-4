@@ -1,9 +1,65 @@
 
-
 .wrapper{
+    max-width: 1142px;
+    min-width: 400px;
+    margin: auto;
+}
+
+.search,
+.gallery{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+img {
+    width: 250px;
+
+
+}
+img:hover{
+
+          box-shadow: 0px 3px 15px rgba(0,0,0,0.4);
+
+}
+
+/*Base Styles*/
+#myInput{
+
+    border: solid 2px #e2e0e0;
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+    margin-top: 40px;
+
+}
+
+input:focus {
+      box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+        
+}
+
+input[placeholder] {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-indent: 10px;
+    font-size: 16pt;
+}
+figcaption{
+    display: none;
+}
+
+/*Media Queries*/
+@media only screen 
+and (min-device-width : 768px) {
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+      
+    }
+
+    #myInput{
+        width: 50%;
+    }
+
+}
