@@ -6,7 +6,7 @@
 }
 
 .search,
-.gallery{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +67,7 @@ footer{
 
 /*Media Queries*/
 @media (min-width : 768px) {
-    .gallery {
+    .container {
         flex-direction: row;
         flex-wrap: wrap;
       
